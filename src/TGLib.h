@@ -91,3 +91,14 @@ using f64 = double;
 
 using wchar = wchar_t;
 #endif // TGLIB_NOGLOBALNUMBERTYPES
+
+#ifdef TGLIB_INC_INSTRUMENTOR
+#include "Instrumentor.h"
+#endif // TGLIB_INC_INSTRUMENTOR
+#ifdef TGLIB_INC_TIMER
+#include "Timer.h"
+#endif // TGLIB_INC_TIMER
+#ifdef TGLIB_INC_UTIL
+#include "Util.h"
+#endif // TGLIB_INC_UTIL
+
