@@ -99,6 +99,6 @@ using wchar = wchar_t;
 #include "Timer.h"
 #endif // TGLIB_INC_TIMER
 #ifdef TGLIB_INC_UTIL
-#include "Util.h"
+#include "TGLib_Util.h"
 #endif // TGLIB_INC_UTIL
 
